@@ -1,0 +1,45 @@
+--- install git(git.scm.com)
+--- configure git
+	-git config --global user.name = 'dev-Sujon'
+	-git config --global user.email = 'octacodeer@gmail.com'
+--- check congfigaretion status 
+	-git config --global --list	
+	
+Working Dir		Staging Area		Commit(saved a version)
+===========		============		=======================
+index.html		git add filename	git commit -m 'Message'
+main.py			git add .		git commit -am **	
+
+*Some Importent Command
+	- git init
+	- git add filename
+	- git add . (all file)
+	- git add -am "all file and create message"
+	- git status (see files in staging area)
+	- git log --oneline (show log with commit and message)
+	- git show commit_version
+	- git reset
+	- git reset --hard
+	- git checkout cersion
+	- git clone
+	- git push
+	
+	
+	
+create a new repository on the command line
+
+	echo "# OOP_in_python" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git branch -M main
+	git remote add origin https://github.com/dev-Sujon/OOP_in_python.git
+	git push -u origin main	
+
+push an existing repository from the command line
+
+	git remote add origin https://github.com/dev-Sujon/OOP_in_python.git
+	git branch -M main
+	git push -u origin main	
+	
+	
