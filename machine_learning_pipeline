@@ -1,0 +1,59 @@
+
+```````````````````Pipeline to build machine learning project step by step````````````````````````````
+  
+--Data Collection 
+       collected the dataset for specific problem
+--Data Cleaning
+       clearning means check weather the dataset is noise value or prevent some
+       error value ,check if there any null value . Understand the dataset properly
+        
+--Data analysis
+       In this part we focus on dataset to which model is fit to the dataset
+       for this reason we focus dataset deeply and undersatand the dataset and how it 
+       behave  
+--Data Visualualisation 
+       To understand the dataset . We must visualize the dataset using some techonology
+       we use matplotlib and seaborn for visualize the data
+
+--data standardise 
+     Pca(required) if high dimention 
+
+--Data Processing 
+    *text data into numerical
+       - Categorical 
+                 1.OneHotEnconder
+                 2.labelEncoder
+                   
+       - numerical
+               1.StandardScaler
+               2.MinMaxScaler
+                   
+--Spliting the data
+       - training (80) testing (20)
+
+--Machine Learning model - 
+         - KNN
+         - Naive bayes
+         - logistic regression
+         - linear regression
+         - decision tree
+         - Random forest
+         - Boosting algorithm
+           ..................
+           more.....
+
+--Identify best parameters
+         - hyperparameter tuning
+             1.GridSearchCV
+             2.RandomizedSearchCV
+             
+          # train acc and test acc are good, model is not overfitted #
+
+--Evaluation 
+         - accuracy score(balanced data)
+         - f1_score [ generally everytime ]
+         - precision [ Hihh risk situaion as 'healthcare' ]
+         - recall [ special case use ]
+         - confusion_metrics [ everytime ]
+         - classification_report [ everytime ]
+
